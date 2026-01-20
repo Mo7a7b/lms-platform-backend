@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "node18",
+    "sourceMap": true,
+    "lib": ["ES2024", "DOM"],
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
+  },
+  "extends": "@tsconfig/node24/tsconfig.json",
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
