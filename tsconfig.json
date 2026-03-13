@@ -9,6 +9,6 @@
     "allowImportingTsExtensions": true
   },
   "extends": "@tsconfig/node24/tsconfig.json",
-  "include": ["src"],
+  "include": ["src", "config", "types"],
   "exclude": ["node_modules"]
 }
